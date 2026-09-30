@@ -17,13 +17,13 @@ A proposta central do sistema é permitir que qualquer usuário da instituição
 
 ## 🛠️ Ferramentas e tecnologias
 
-| Camada | Tecnologia |
-|---|---|
-| Front-end | **Next.js** |
-| Back-end | **Node.js** |
-| Banco de dados | **PostgreSQL** |
-| Prototipação / UI-UX | **Figma** |
-| Containerização | **Docker** |
+| Camada               | Tecnologia     |
+| -------------------- | -------------- |
+| Front-end            | **Next.js**    |
+| Back-end             | **Node.js**    |
+| Banco de dados       | **PostgreSQL** |
+| Prototipação / UI-UX | **Figma**      |
+| Containerização      | **Docker**     |
 
 A escolha dessa stack visa unir produtividade e escalabilidade: Next.js para uma interface performática com renderização otimizada, Node.js para uma API robusta e desacoplada do front-end, PostgreSQL como banco relacional confiável para os dados de usuários e chamados, e Docker para padronizar o ambiente de desenvolvimento entre os membros da equipe.
 
@@ -49,7 +49,6 @@ O protótipo completo pode ser consultado no Figma do projeto [clicando aqui](ht
 ## 👥 Equipe
 
 Projeto desenvolvido por um grupo de **4 integrantes** como parte das disciplinas de Fábrica de Software e Tópicos Avançados em Ciência da Computação, sendo: **Eduardo Negrão**, **Matheus Barbosa**, **Felipe Moura** e **Mateus Nunes**.
-
 
 ## 🚀 Status do projeto
 
