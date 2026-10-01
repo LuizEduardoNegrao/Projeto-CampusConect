@@ -20,6 +20,11 @@ env/
 # Docker
 *.log
 
+# Dados locais de banco, caso usem bind mount
+docker/**/data/
+coverage/
+*.tsbuildinfo
+
 # VS Code
 .vscode/*
 !.vscode/extensions.json
