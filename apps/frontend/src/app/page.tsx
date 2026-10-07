@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import Header from '@/components/Header';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           <Link
-            href="/novo-chamado%20(aluno)"
+            href="/novo-chamado"
             className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-slate-400 hover:shadow"
           >
             <h3 className="text-lg font-semibold text-slate-900">
@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href="/meus-chamados%20(aluno)"
+            href="/meus-chamados"
             className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-slate-400 hover:shadow"
           >
             <h3 className="text-lg font-semibold text-slate-900">
