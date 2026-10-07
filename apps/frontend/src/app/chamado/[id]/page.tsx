@@ -1,10 +1,10 @@
 'use client';
 
+import Header from '@/components/Header';
+import { Chamado, getChamados } from '@/lib/chamados';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import Header from '@/components/Header';
-import { Chamado, getChamados } from '@/lib/chamados';
 
 const statusLabel = {
   aberto: 'Aberto',
